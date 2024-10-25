@@ -1,0 +1,176 @@
+###Treasure Mountain
+
+print("Welcome to Treasure Mountain.")
+print("Your mission is to find the treasure located in this cave.")
+
+print(""" 
+ ********************************************************************************
+*                    /   \              /'\       _                              *
+*\_..           /'.,/     \_         .,'   \     / \_                            *
+*    \         /            \      _/       \_  /    \     _                     *
+*     \__,.   /              \    /           \/.,   _|  _/ \                    *
+*          \_/                \  /',.,''\      \_ \_/  \/    \                   *
+*                           _  \/   /    ',../',.\    _/      \                  *
+*             /           _/m\  \  /    |         \  /.,/'\   _\                 *
+*           _/           /MMmm\  \_     |          \/      \_/  \                *
+*          /      \     |MMMMmm|   \__   \          \_       \   \_              *
+*                  \   /MMMMMMm|      \   \           \       \    \             *
+*                   \  |MMMMMMmm\      \___            \_      \_   \            *
+*                    \|MMMMMMMMmm|____.'  /\_            \       \   \_          *
+*                    /'.,___________...,,'   \            \   \        \         *
+*                   /       \          |      \    |__     \   \_       \        *
+*                 _/        |           \      \_     \     \    \       \_      *
+*                /                               \     \     \_   \        \     *
+*                                                 \     \      \   \__      \    *
+*                                                  \     \_     \     \      \   *
+*                                                   |      \     \     \      \  *
+*                                                    \            |            \ *
+ ********************************************************************************
+ """)
+
+print(""" 
+***************** 
+*    ______     *
+*  /        \   *
+* |  _   _   |  *
+* | |L| |R|  |  *
+* |_____| |__|  *
+*****************
+""")
+
+first_choice = input(
+    "You enter the cave and cautiously begin following the path away from the entrance. After walking for hours, you come across a left and a right path.\nWhich way should you go?\n"
+)
+
+if first_choice == "left" or first_choice == "Left":
+    print("You decide to take the left path.\n")
+else:
+    print(
+        "You start down the right path. As you continue you start noticing the air begin to vibrate. Unfortunately for you the rapture begins and takes you away from your treasure. Funny, you never considered yourself to be a religious person. Damn it.\nEnding 1: Welcome to Heaven."
+    )
+    exit()
+
+print(""" 
+*************** 
+*   _______   *
+*  /       \  *
+* | _       | *
+* ||L|   _  | *
+* |     |D| | *
+* |___| |___| *
+***************
+""")
+
+second_choice = input(
+    "So far so good. You're still alive, thats always a good sign. However, you chance upon another decisive point in your travels as you make your way into a large cave.\nThere are two pathways again. One that goes down. Another that goes left. Which way?\n"
+)
+
+if second_choice == "down" or second_choice == "Down":
+    print("You decide to go " + second_choice +
+          ". You say to yourself, \"Man I hope this is the right choice.\"\n")
+else:
+    print(
+        "You walk down the left path. You figured you were right the last time. Surely you'd be right again. After a few minutes on the path, you become plagued with the status effect of eternal suffering and notice a death symbol next to it... You blink and the next thing you know you're in a deserted fiery hellscape.\nEnding 2: Welcome to Hell."
+    )
+    exit()
+
+print("""           
+******************************************************
+*                    ____|  |____                    *
+*                   /            \                   *
+*                  /              \                  *
+*                 /                \                 *
+*                /                  \                *
+*               /                    \               *
+*              /                      \              *
+*             /                        \             *
+*            /                          \            *
+*           /                            \           * 
+*          /                              \          *  
+*          |                              |          *  
+*          |                              |          *  
+*          |     ~~~~~~~~~~~~~~~~~~       |          *  
+*          |     ~~~~~~~~~~~~~~~~~        |          *  
+*          |      ~~~~~~~~~~~~~~~~~       |          *  
+*          |     ~~~~~~~~~~~~~~~~~        |          *            
+*          |   ~~~~~~~~~~~~~~~~~~~~~      |          *  
+*          |   ~~~~~~~~~~~~~~~~~~~~~~     |          *  
+*          |   ~~~~~~~~~~~~~~~~~~~~~~     |          *  
+*          |   ~~~~~~~~~~~~~~~~~~~~~~     |          *  
+*          |       ___   ___   ___        |          *  
+*          |      | R | | B | | Y |       |          *  
+*          |      |___| |___| |___|       |          *
+*          |______________________________|          *
+******************************************************  
+""")
+
+third_choice = input(
+    "As you walk down the path you begin to see light up ahead. You walk towards it and end up stepping into a large cavern with a lake in the middle. On the other side of the cavern you notice three giant doors. One is red, one is blue, and the last one is yellow. You feel like your journey is coming to an end and that it all comes down to this moment...\nWhich door do you choose?\n"
+)
+
+if third_choice == "red" or third_choice == "Red":
+    print("""
+********************** 
+*  \ \ \ \  / / / /  *
+*       ______       *
+*      | ____ |      *
+*      | ____)|      *
+*      | ____ |      *
+*______|______|______*
+**********************
+    """)
+    print(
+        "You imagine the red door as a symbol of power and strength. Red is in fact a strong, bold color. Perhaps the original owner of the treasure thought the same way. You walk over, open the door and step inside. You are greeted by heavy breathing. The door immediately shuts behind you leaving you in darkness. You look around and see a wooden box with a handle in a spotlight. You figure this is where the treasure is kept. The breathing gets more ragged and you hear an almost equally loud sniffing sound. Unnerved by the heavy breathing, yet wanting to know what is inside the box. You realized you must make another decision.\nYou also realized you\'ve come to hate decision-making.\n"
+    )
+    decision = input("Do you look around or open the box?\n")
+    if decision == "look around" or "Look around":
+        print("""
+****************************        
+*                          *
+*          |     |         *
+*          |  |  |         *
+*         /       \        *
+*       ( () ) ( () )      *
+*                          *
+****************************
+        """)
+        print(
+            "You decided to look around. Carefully, you follow the sounds of the breathing and the sniffing. Once or twice you stumbled as you walked through the darkness. Each time you did, the sounds ceased for a few. You thought you were really close, so you tried looking around in the darkness for movement. Someone suddenly sniffs loudly behind you...\n\nA voice suddenly speaks in the direction of the sound. It says \"You smell... like a demon.\" Heart thudding, you tried moving, but you're body won't let you. Somehow, you hear a faint voice coming from the box that was now a good sprint away.... \"help... help me... help\". The almost raspy voice behind you spoke again, \"I can smell every sin you've ever made.\"\n\nYou try explaining that you got lost in the cave and that you didn't know anyone else was here. However, halfway into your explanation, the voice screams \"water form attack!!!\" Then you feel a blade go into your neck.\nEnding 3: I SMELL A DEMON."
+        )
+        exit()
+    else:
+        print(
+            "You decided to open the box. You walk into the light and reach for the handle. As you pull the handle, the sniffing gets louder and louder. Praying to whatever deity is out there you ignore the freakish sounds and open the box. A young girl with a piece of bamboo shoved in her mouth almost falls out of the box. She looks at you with half-opened eyes and says \"help... help me...help.\" Suddenly you hear someone screaming. \"Water form attack!!!\" You turn around and catch a glimpse of a very wide boy with a freakishly large, scarred head and nostrils before you get stabbed in the neck with a dagger.\nEnding 4: Tanjiro\'s Nose Knows Everything'"
+        )
+elif third_choice == "blue" or third_choice == "Blue":
+    print(
+        "You take a step towards the blue door. You walk into the door and it immediately shuts behind you. You suddenly get hit with deja vu from the door slamming. You look around for anything that appears familiar, but nothing does in the dimly lit tunnel you appear to be in. Shrugging it off you decide to look farther into the tunnel thinking that maybe this leads to another door or the treasure room. After walking for a long while, you feel the ground start shaking.\n\nDebris starts falling around you and behind you the ceiling crumbles. You take off down the tunnel dodging the falling rocks as best as you can. You start seeing light just as you were beginning to think you'd become a bloody pancake. Finally you rush out of the collapsing cave and turn around. Relief overwhelms you and you collapse on your knees with a loud sigh. You're happy you escaped, but now the fabled treasure is lost forever. Oh well, at least you're alive and have a story to tell.\nEnding 5: The Good Ending."
+    )
+    exit()
+else:
+    print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+_________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+    ''')
+    print(
+        "Your fingers become clammy as you reach for the yellow doorhandle. You can\'t help but hope you're making the right choice. You remember what your friend told you long ago, \"head down and keep going.\" So you did just that. As if testing the handle, you jiggle it as if you were a villain trying to enter a locked door and thought that by jiggling more, it would open. Satisfied that no booby traps were triggered, you slowly open the door.\n\nGolden light floods in and you begin hearing angelic voices whispering in your ears. Your friend\'s thoughtful words resonate in your ears again, so you throw the door open the rest of the way with your chest held high. At last you spot the treasure held upon a pile of glimmering gold. You\'ve done it. You\'ve found the treasure. You\'ve won.\nEnding 6: The True Ending.\n\n"
+    )
+    exit()

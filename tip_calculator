@@ -1,0 +1,19 @@
+### Tip Calculator Project:
+
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill?\n$"))
+tip = int(input("How much tip would you like to give? 10, 12, or 15?\n"))
+people = int(input("How many people to split the bill?\n"))
+print("Calculating tip")
+
+total_tip_amount = bill * (tip / 100)
+total_bill = bill + total_tip_amount
+bill_per_person = total_bill / people
+
+### Rounding to 2 decimal places (2 options)
+## 1. round function
+final_per_person = round(bill_per_person, 2)
+## 2. format function
+# final_per_person = "{:.2f}".format(bill_per_person)
+
+print(f"Please have each person pay ${final_per_person}")
